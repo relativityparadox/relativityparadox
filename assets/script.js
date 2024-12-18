@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Load resource links
-    loadHTML('#fonts-placeholder', '/assets/fonts.html');
+    loadHTML('.fonts-placeholder', '/assets/fonts.html');
 
     // Load title logo SVG
     loadHTML('.title-logo-placeholder', '/assets/images/title-logo.html');

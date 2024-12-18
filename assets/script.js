@@ -22,3 +22,12 @@ document.addEventListener('DOMContentLoaded', function () {
     // Load footer content
     loadHTML('.placeholder-footer', '/assets/html/footer.html');
 });
+
+document.addEventListener("scroll", function () {
+    const svg = document.getElementById("navLogo");
+    if (window.scrollY >= 175) {
+        svg.classList.add("show");
+    } else {
+        svg.classList.remove("show");
+    }
+});

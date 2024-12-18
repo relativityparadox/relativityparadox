@@ -11,14 +11,14 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Load resource links
-    loadHTML('#resource-placeholder', '/assets/resources.html');
+    loadHTML('#fonts-placeholder', '/assets/fonts.html');
 
     // Load title logo SVG
-    loadHTML('.title-logo-placeholder', '/assets/title-logo.html');
+    loadHTML('.title-logo-placeholder', '/assets/images/title-logo.html');
 
     // Load navbar logo SVG
-    loadHTML('.navbar-placeholder', '/assets/navbar.html');
+    loadHTML('.navbar-placeholder', '/assets/html/navbar.html');
 
     // Load footer content
-    loadHTML('.placeholder-footer', '/assets/footer.html');
+    loadHTML('.placeholder-footer', '/assets/html/footer.html');
 });

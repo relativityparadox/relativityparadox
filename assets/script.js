@@ -11,13 +11,13 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Load resource links
-    loadHTML('#resource-placeholder', '/assets/resource.html');
+    loadHTML('#resource-placeholder', '/assets/resources.html');
 
     // Load title logo SVG
     loadHTML('.title-logo-placeholder', '/assets/title-logo.html');
 
     // Load navbar logo SVG
-    loadHTML('.navbar-logo-placeholder', '/assets/navbar-logo.html');
+    loadHTML('.navbar-placeholder', '/assets/navbar.html');
 
     // Load footer content
     loadHTML('.placeholder-footer', '/assets/footer.html');

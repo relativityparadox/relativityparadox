@@ -94,7 +94,8 @@ div {
 .text {
   padding: 30px;
   font-family: "Inter", sans-serif;
-  max-width: 2000px;
+  max-width: 1500px;
+  margin: 10px 80px;
 }
 
 .footer {

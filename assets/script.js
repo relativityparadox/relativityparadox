@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
     loadHTML('.navbar-placeholder', '/assets/html/navbar.html');
 
     // Load footer content
-    loadHTML('.placeholder-footer', '/assets/html/footer.html');
+    loadHTML('.footer-placeholder', '/assets/html/footer.html');
 });
 
 document.addEventListener("scroll", function () {

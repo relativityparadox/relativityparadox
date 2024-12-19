@@ -94,8 +94,12 @@ div {
 .text {
   padding: 30px;
   font-family: "Inter", sans-serif;
-  max-width: 1500px;
+  max-width: 1100px;
   margin: 10px 80px;
+}
+
+.text a {
+  color: #096f9d;
 }
 
 .footer {
@@ -108,4 +112,8 @@ div {
   font-weight: 900;
   letter-spacing: 2px;
   text-align: center;
+}
+
+.footer a {
+  color: #096f9d;
 }
